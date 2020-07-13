@@ -25,6 +25,7 @@ class App extends React.Component{
 
 
   render(){
+    console.log("rendering now")
     return <div> 
     <h1>The number is {this.state.count}</h1>
     {/* React는 onClick Prop을 제공해줌 자바스크립트는 onclick  eventlister등등 이용 */}
